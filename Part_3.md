@@ -17,3 +17,12 @@ https://www.iiflcapital.com/blog/stocks/fundamental-analysis
 
 **Notes on Term Project Application**
 I do not see a strong use case for this approach within the term project. Since this analysis often starts at the company level, followed by the industry, and then the assessment of various macroeconomic factors, using this within a knowledge graph could introduce significant complexity and potentially become unmanageable. While the initial conceptualization might include various economic indicators, I would narrow the scope to ensure a focused implementation. I would recommend concentrating on the latter two identified areas: industry-specific dynamics and broader macroeconomic conditions. By adopting this more focused approach, the individual nodes within the knowledge graph can represent key elements within these domains, facilitating a more controlled and insightful analysis. For instance, within the healthcare industry domain, nodes could represent specific companies, products, or supply chain components, along with their interrelationships. Similarly, within the macroeconomic domain, nodes could represent key indicators such as inflation rates, interest rates, unemployment figures, and overall economic growth trends, and their impact on the identified industries. This deliberate limitation of scope will enhance the clarity and maintainability of the knowledge graph.
+
+
+### References
+
+Chen, James. 2024. “Fundamental Analysis: Principles, Types, and How to Use It.” Investopedia, December 5, 2024. https://www.investopedia.com/terms/f/fundamentalanalysis.asp.
+
+Fidelity.com. 2023. “Introduction to Fundamental Analysis.” October 31, 2023. https://www.fidelity.com/learning-center/trading-investing/fundamental-analysis/introduction-to-fundamental-analysis-video.
+
+IIFL Capital Services Limited. 2024. “An Overview of Fundamental Analysis.” August 8, 2024. https://www.iiflcapital.com/blog/stocks/fundamental-analysis.

@@ -15,7 +15,7 @@ ORDER BY sorts the results (e.g., by homepage in descending order)
 - **Subqueries**
 Subqueries in SPARQL is a technique that allows to nest one query inside another, enabling more complex data retrieval from RDF graphs. They work like subqueries in SQL, letting you break down a problem into smaller parts. A subquery is enclosed in curly braces {} within the main query's WHERE clause, and its results can be used by the outer query.
 
-A further look into using SPARQL as a tool gave a hit on popoular libries that enable it to be used in a Python envirnorment: SPARQLWrapper, RDFlib
+A further look into using SPARQL as a tool gave a hit on popoular libries that enable it to be used in a Python envirnorment: SPARQLWrapper, RDFlib.
 https://sparql.dev/article/Top_10_SPARQL_libraries_for_Python_developers.html
 
 
@@ -71,4 +71,14 @@ https://neo4j.com/videos/neo4j-live-how-to-build-a-knowledge-graph/
 
 ### References
 
-Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. Knowledge Graphs: Fundamentals, Techniques, and Applications. Cambridge, MA: MIT Press. [ISBN-13: 978-0262045094] Chapter 6 Relation Extraction, pages 125–147.
+Elastic.co. 2022. “Elasticsearch Features List.” March 10, 2022. https://www.elastic.co/elasticsearch/features.
+
+MongoDB.com. 2022. “MongoDB Documentation: Guides.” June 27, 2022. https://www.mongodb.com/docs/guides/.
+
+Neo4j.com. 2024. “Neo4j Documentation.” May 9, 2024. https://neo4j.com/docs/.
+
+Neo4j.com. 2025. “Neo4j Live: How to Build a Knowledge Graph.” April 22, 2025. https://neo4j.com/videos/neo4j-live-how-to-build-a-knowledge-graph/.
+
+Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. Knowledge Graphs: Fundamentals, Techniques, and Applications. Cambridge, MA: MIT Press. [ISBN-13: 978-0262045094] Chapter 12 Structured Querying, pages 307–335.
+
+Sparql.dev. 2025. “Top 10 SPARQL Libraries for Python Developers.” May 17, 2025. https://sparql.dev/article/Top_10_SPARQL_libraries_for_Python_developers.html.

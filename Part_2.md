@@ -31,7 +31,35 @@ The second step to the two-step forumation is similarity in which the pairs must
 
 ## Foundations of statistical relational learning 
 
+statistical relational learning (SRL) is a key approach for working with knowledge graphs (KGs), which often contain complex relational dependencies that violate the i.i.d. assumption. SRL frameworks like Probabilistic Soft Logic (PSL) and Markov Logic Networks (MLNs) are of interest with this process for their ability to model and infer over these dependencies by integrating logic and probability theory. This chapter focuses on SRL's application to KGs, particularly in addressing the KG identification problem. 
+
+Modeling dependencies in statistical relational learning (SRL) involve capturing the relational and structural connections between entities in a knowledge graph (KG), which do not follow the independent and identically distributed (i.i.d.) assumption. 
+
+Statistical relational learning (SRL) frameworks are crucial for modeling dependencies in non-independently and identically distributed (i.i.d.) data, such as knowledge graphs. By integrating statistical and relational learning, SRL addresses uncertainty and dependencies, facilitating tasks like collective classification, link prediction, and link-based clustering.
+
+A unified SRL framework should combine first-order logic with probabilistic graphical models, offer straightforward representations for typical SRL problems, and accommodate diverse inference methods (statistical, probabilistic, and logical). Frameworks such as Markov Logic Networks (MLNs) and Probabilistic Soft Logic (PSL) have successfully incorporated substantial domain knowledge.
+
+**Markov Logic Networks**
+
+A statistical relational learning framework that combineds first-order logic with Markov random fields for reasoning over uncertain relational data like knowledge graphs, where standard i.i.d. assumptions fail. MLNs use weighted first-order logic rules (e.g., Friends(A, B) ∧ VotesFor(A, P) → VotesFor(B, P) with a weight indicating confidence) to define relationships. These soft rules are converted into a Markov random field by grounding variables. The joint probability distribution is based on rule weights, favoring configurations satisfying more or higher-weighted rules. MLNs perform inference (predicting unknown relationships) and learning (adjusting rule weights from data).
 
 
+https://link.springer.com/article/10.1007/s10994-006-5833-1
+
+**Probabalistic Soft Logic** 
+
+Probabilistic Soft Logic (PSL) models uncertain relational data by combining first-order logic with continuous probabilistic reasoning. It uses a hinge-loss Markov random field to optimize configurations that best satisfy weighted rules, which act as soft constraints penalized proportionally to violation. PSL works by defining rules with continuous truth values, assigning weights to indicate importance, modeling joint probability distributions, and inferring likely truth values while learning from data.
 
 ### Knowledge graph construction and inference
+Knowledge graph construction (KGC) sees challenges due to uncertainty in named entity extraction and relationship identification. Probabilistic outputs from ML models are often converted to labels using set thresholds. Additionally, knowledge graphs built with NLP are frequently noisy and sparse. Knowledge graph identification (KGI) addresses the problem of selecting relevant data from these messy triples.
+
+Knowledge graphs often contain errors like incorrect or missing links due to limitations in NLP and other extraction methods. Statistical relational learning (SRL) is a suitable framework for KGI because it can model relationships and manage uncertainty arising from noisy inputs such as incorrect triples. Incorporating domain knowledge, noise awareness, and system confidence is crucial. A specific SRL-based model utilizes joint reasoning over entity resolution, ontological constraints, and information extraction to refine a noisy KG into a more complete one by correcting errors, and removing incorrect links.
+
+Extensive article on building KG: https://towardsdatascience.com/build-query-knowledge-graphs-with-llms/
+
+### Referernces 
+
+Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. Knowledge Graphs: Fundamentals, Techniques, and Applications. Cambridge, MA: MIT Press. [ISBN-13: 978-0262045094] Chapter 8 Instance Matching, pages 175–220, Chapter 9 Statistical Relational Learning, pages 221–240.
+
+Richardson, Matthew, and Pedro Domingos. "Markov Logic Networks." Machine Learning 62, no. 1-2 (2006): 107-36. https://doi.org/10.1007/s10994-006-5833-1.
+

@@ -56,3 +56,12 @@ Unpredictable Shifts - Sudden, unexpected events can cause rapid changes in mark
 
 **Notes on Term Project Application**
 The prevailing methodology for this term project is using sentiment analysis. This involves leveraging financial articles and data to determine market sentiment for potential trading decisions. Specifically, web scraping techniques will be employed to gather textual data from financial news sources and relevant online platforms. This textual information will then be processed and stored in a database that will then be used for sentiment analysis to quantify the overall positive, or negative sentiment expressed towards specific stocks in the healthcare sector. This approach aims to integrate real-time financial information and public opinion into a framework for making informed investment choices in the healthcare sector.
+
+
+### References
+
+IntegratingPulse.com. 2025. “Understanding Investor Sentiment Analysis in Finance.” May 17, 2025. https://integratingpulse.com/articles/investor-sentiment-analysis-financial-markets/.
+
+Tamplin, True. 2024. “Market Sentiment Analysis.” Finance Strategists, May 25, 2024. https://www.financestrategists.com/wealth-management/fundamental-vs-technical-analysis/market-sentiment-analysis/.
+
+TraderHQ.com. 2025. “How to Master Sentiment Analysis: Unlock Market Insights.” May 17, 2025. https://traderhq.com/sentiment-analysis-gauging-market-emotions/.

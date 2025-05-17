@@ -17,3 +17,12 @@ https://www.investopedia.com/terms/t/technicalanalysis.asp
 
 **Notes on Term Project Application**
 I do not see a strong use case for this approach within the term project. This analysis requires charting tools to identify indicators for stocks of interest. Using this within a knowledge graph could introduce significant complexity and time to input daily stock moments. More research would have to be done on its viability but the best way I could see this working is if a service was found that automates the charting to get a large amount of data moved into the knowledge graph.
+
+
+### References
+
+Chen, James. 2024. “Technical Analysis: What It Is and How to Use It in Investing.” Investopedia, December 5, 2024. https://www.investopedia.com/terms/t/technicalanalysis.asp.
+
+Finbold.com. 2025. “What Is Technical Analysis in Trading? | Definition & Examples.” January 31, 2025. https://finbold.com/guide/technical-analysis-definition/.
+
+Markets.com. 2025. “What Is Technical Analysis: A Comprehensive Guide.” May 17, 2025. https://www.markets.com/education-centre/what-is-technical-analysis/.
